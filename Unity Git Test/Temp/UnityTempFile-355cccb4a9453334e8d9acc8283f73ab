@@ -1,14 +1,12 @@
 /target:library
 /nowarn:0169
 /nowarn:0649
-/out:Temp/Unity.Timeline.dll
+/out:Temp/Assembly-CSharp.dll
 /debug:portable
 /optimize-
 /nostdlib+
 /preferreduilang:en-US
 /langversion:latest
-/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
-/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -70,10 +68,15 @@
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.17f1/Editor/Data/Managed/UnityEditor.dll"
-/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.17f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
-/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.17f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
-/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
-/reference:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+/reference:Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:Library/ScriptAssemblies/Unity.Timeline.dll
+/reference:Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Rider.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
 /reference:"C:/Users/Elliott/Documents/_Git Projects/GitTest/Unity Git Test/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.17f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
@@ -287,73 +290,7 @@
 /define:ENABLE_LEGACY_INPUT_MANAGER
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Activation\ActivationMixerPlayable.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Activation\ActivationPlayableAsset.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Activation\ActivationTrack.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Animation\AnimationOutputWeightProcessor.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Animation\AnimationPlayableAsset.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Animation\AnimationPreviewUpdateCallback.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Animation\AnimationTrack.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Animation\ICurvesOwner.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\AssetUpgrade\AnimationPlayableAssetUpgrade.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\AssetUpgrade\AnimationTrackUpgrade.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\AssetUpgrade\ClipUpgrade.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\AssetUpgrade\TimelineUpgrade.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\AssetUpgrade\TrackUpgrade.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Attributes\TrackColorAttribute.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Audio\AudioClipProperties.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Audio\AudioMixerProperties.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Audio\AudioPlayableAsset.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Audio\AudioTrack.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\ClipCaps.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Control\ControlPlayableAsset.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Control\ControlTrack.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\DiscreteTime.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Evaluation\InfiniteRuntimeClip.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Evaluation\IntervalTree.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Evaluation\RuntimeClip.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Evaluation\RuntimeClipBase.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Evaluation\RuntimeElement.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Evaluation\ScheduleRuntimeClip.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Events\IMarker.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Events\INotificationOptionProvider.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Events\Marker.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Events\MarkerList.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Events\MarkerTrack.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Events\SignalTrack.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Events\Signals\CustomSignalEventDrawer.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Events\Signals\SignalAsset.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Events\Signals\SignalEmitter.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Events\Signals\SignalReceiver.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Extensions\TrackExtensions.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\GroupTrack.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\ILayerable.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Playables\ActivationControlPlayable.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Playables\BasicScriptPlayable.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Playables\DirectorControlPlayable.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Playables\ITimeControl.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Playables\NotificationFlags.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Playables\ParticleControlPlayable.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Playables\PrefabControlPlayable.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Playables\TimeControlPlayable.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Playables\TimeNotificationBehaviour.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Properties\AssemblyInfo.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Scripting\PlayableTrack.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Timeline.deprecated.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\TimelineAsset.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\TimelineAsset_CreateRemove.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\TimelineAttributes.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\TimelineClip.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\TimelinePlayable.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\TrackAsset.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Utilities\AnimationPreviewUtilities.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Utilities\AnimatorBindingCache.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Utilities\Extrapolation.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Utilities\HashUtility.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Utilities\IPropertyCollector.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Utilities\IPropertyPreview.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Utilities\NotificationUtilities.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Utilities\TimeUtility.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Utilities\TimelineCreateUtilities.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Utilities\TimelineUndo.cs"
-"C:\Users\Elliott\Documents\_Git Projects\GitTest\Unity Git Test\Library\PackageCache\com.unity.timeline@1.2.17\Runtime\Utilities\WeightUtility.cs"
+Assets\AIWithFOV.cs
+Assets\CameraMove.cs
+Assets\FOVDetection.cs
+Assets\PlayerController.cs
