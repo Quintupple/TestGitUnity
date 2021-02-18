@@ -384,7 +384,7 @@ GameObject:
   - component: {fileID: 1262529213}
   - component: {fileID: 1262529212}
   - component: {fileID: 1262529211}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -506,7 +506,7 @@ MonoBehaviour:
   groundDistance: 0.4
   groundMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   jumpHeight: 3
 --- !u!143 &1265642778
 CharacterController:
@@ -668,7 +668,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1265642782}
-  maxAngle: 172.06
+  maxAngle: 92.61
   maxRadius: 10.54
   heightMultiplayer: 0
   isInFov: 0

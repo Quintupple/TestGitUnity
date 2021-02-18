@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 11341
+  controlID: 12476
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 11250
+  controlID: 12477
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -207,9 +207,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -30.818094, y: -3.3793924, z: -2.3185945}
+    m_Target: {x: 3.9595985, y: -4.634308, z: -6.2225704}
     speed: 2
-    m_Value: {x: -30.818094, y: -3.3793924, z: -2.3185945}
+    m_Value: {x: 3.9595985, y: -4.634308, z: -6.2225704}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -255,9 +255,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.064467445, y: -0.7290116, z: 0.06932529, w: 0.6779309}
+    m_Target: {x: -0.14998862, y: -0.824349, z: 0.2566343, w: -0.48177338}
     speed: 2
-    m_Value: {x: 0.06446712, y: -0.72900784, z: 0.06932493, w: 0.67792743}
+    m_Value: {x: -0.14998753, y: -0.82434297, z: 0.25663242, w: -0.48176986}
   m_Size:
     m_Target: 10
     speed: 2
@@ -431,7 +431,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -2214
+  m_LastSelectedObjectID: -1348
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -456,7 +456,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 11302
+  controlID: 12433
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -669,9 +669,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 5af7ffff
-    m_LastClickedInstanceID: -2214
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 50f4ffff
+    m_LastClickedInstanceID: -2992
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300006e9d0000d4bf0000d0600000a44a00008a7f0000c83f0000e03a00000438000058410000ce3f000092590000045a00003238000098590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -765,8 +765,8 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: -2214
-  m_LastVerticalScrollValue: 180
+  m_LastInspectedObjectInstanceID: -2992
+  m_LastVerticalScrollValue: 0
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
